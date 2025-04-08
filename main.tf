@@ -13,7 +13,7 @@ resource "docker_container" "container_server_web" {
   name  = "server_web"
   image = "nginx:latest"
   ports {
-    external = 4000
+    external = 4010
     internal = 80
 
   }
